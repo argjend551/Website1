@@ -1,10 +1,10 @@
 // smooth scroll
 function smoothScroll(target, duration) {
-     var target = document.querySelector(target);
-     var targetPosition = target.getBoundingClientRect().top;
-     var startPostition = window.pageYOffset;
-     var distance = targetPosition - startPostition;
-     var startTime = null;
+     let target = document.querySelector(target);
+     let targetPosition = target.getBoundingClientRect().top;
+     let startPostition = window.pageYOffset;
+     let distance = targetPosition - startPostition;
+     let startTime = null;
 
 
      function animationScroll(currentTime) {
@@ -27,26 +27,26 @@ function smoothScroll(target, duration) {
 
 }
 
-var home = document.querySelector('.home');
+let home = document.querySelector('.home');
 
 home.addEventListener('click', function () {
      smoothScroll('header', 1000);
 
 });
-var aboutus = document.querySelector('.aboutus');
+let aboutus = document.querySelector('.aboutus');
 
 aboutus.addEventListener('click', function () {
      smoothScroll('.aboutush', 1000);
 
 });
-var work = document.querySelector('.info');
+let work = document.querySelector('.info');
 
 work.addEventListener('click', function () {
      smoothScroll('.infotxt', 1000);
 
 });
 
-var products = document.querySelector('.products');
+let products = document.querySelector('.products');
 
 products.addEventListener('click', function () {
      smoothScroll('.slideshow-container', 1000);
@@ -54,7 +54,7 @@ products.addEventListener('click', function () {
 });
 
 
-var scrollTop = document.querySelector('.top');
+let scrollTop = document.querySelector('.top');
 
 scrollTop.addEventListener('click', function () {
      smoothScroll('header', 1000);
@@ -145,13 +145,13 @@ prevbtn.addEventListener('click', function () {
 
 // *****automatic slider
 
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-     var i;
-     var slides = document.getElementsByClassName("mySlides");
-     var dots = document.getElementsByClassName("dot");
+     let i;
+     let slides = document.getElementsByClassName("mySlides");
+     let dots = document.getElementsByClassName("dot");
      for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
      }
