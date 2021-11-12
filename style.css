@@ -382,13 +382,10 @@ img {
      }
 
      .box1 {
-          height: 80%;
-          left: 50px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 81%;
-          margin-bottom: 10%;
+          position: absolute;
+          right: 110px;
+          width: 309px;
+          height: 680px;
 
      }
 
@@ -400,12 +397,6 @@ img {
 
      .next {
           margin-left: 180px;
-          margin-top: 370px;
-     }
-
-     .prev {
-          margin-left: -100px;
-          margin-top: 370px;
      }
 
      .box1 p {
@@ -430,27 +421,27 @@ img {
           position: relative;
           overflow: hidden;
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-
      }
 }
 
 @media screen and (max-width:768px) {
      .navbar {
-          height: 40%;
-          left: 50px;
+          position: absolute;
+          right: 0px;
+          height: 30%;
+          top: 0px;
+          background-color: black;
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 80%;
-          margin-bottom: 10%;
+          width: 100%;
      }
 
      .box1 {
           position: absolute;
-          width: 300px;
+          width: 309px;
           height: 580px;
-          left: -50px;
-          margin-left: 140px;
+
 
      }
 
@@ -461,15 +452,7 @@ img {
      }
 
      .next {
-          margin-top: 530px;
-
           margin-left: 200px;
-     }
-
-     .prev {
-          margin-top: 532px;
-
-          margin-left: -200px;
      }
 
      .box1 p {
@@ -482,15 +465,13 @@ img {
      }
 
      .slideshow-container {
-          height: 40%;
+          position: absolute;
+          height: 60%;
           left: 50px;
           display: flex;
           flex-direction: column;
           align-items: center;
           width: 80%;
-          margin-bottom: 10%;
-
-
      }
 
      .social {
@@ -498,17 +479,6 @@ img {
           position: absolute;
           flex-direction: column;
           align-items: center;
-     }
-
-     .animated-text {
-          color: rgb(145, 87, 87);
-          position: absolute;
-          top: 75%;
-          left: 40%;
-          transform: translate(-50%, -50%);
-          padding: 0 40px;
-          height: 60px;
-          overflow: hidden;
      }
 }
 
