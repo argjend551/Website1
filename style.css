@@ -382,10 +382,13 @@ img {
      }
 
      .box1 {
-          position: absolute;
-          right: 110px;
-          width: 309px;
-          height: 680px;
+          height: 40%;
+          left: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 80%;
+          margin-bottom: 10%;
 
      }
 
@@ -427,15 +430,13 @@ img {
 
 @media screen and (max-width:768px) {
      .navbar {
-          position: absolute;
-          left: 0px;
-          height: 30%;
-          top: 0px;
-          background-color: black;
+          height: 40%;
+          left: 50px;
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 98%;
+          width: 80%;
+          margin-bottom: 10%;
      }
 
      .box1 {
