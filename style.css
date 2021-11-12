@@ -421,6 +421,7 @@ img {
           position: relative;
           overflow: hidden;
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
      }
 }
 
@@ -465,13 +466,15 @@ img {
      }
 
      .slideshow-container {
-          position: absolute;
-          height: 60%;
+          height: 40%;
           left: 50px;
           display: flex;
           flex-direction: column;
           align-items: center;
           width: 80%;
+          margin-bottom: 10%;
+
+
      }
 
      .social {
@@ -480,8 +483,91 @@ img {
           flex-direction: column;
           align-items: center;
      }
+
+     .animated-text {
+          position: absolute;
+          top: 90%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 0 40px;
+          height: 60px;
+          overflow: hidden;
+     }
 }
 
 .navbar {
      display: flex;
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+     .navbar {
+          position: absolute;
+          right: 0px;
+          height: 30%;
+          top: 0px;
+          background-color: black;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+     }
+
+     .box1 {
+          position: absolute;
+          width: 309px;
+          height: 580px;
+
+
+     }
+
+     .pic {
+          margin-top: 50px;
+          width: 200px;
+          height: 200px;
+     }
+
+     .next {
+          margin-left: 200px;
+     }
+
+     .box1 p {
+          font-size: 14px;
+     }
+
+     .infotxt {
+          width: 80%;
+          overflow-x: scroll;
+     }
+
+     .slideshow-container {
+          height: 40%;
+          left: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 80%;
+          margin-bottom: 10%;
+
+
+     }
+
+     .social {
+          left: -300px;
+          position: absolute;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .animated-text {
+          position: absolute;
+          top: 90%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 0 40px;
+          height: 60px;
+          overflow: hidden;
+     }
+
+
 }
