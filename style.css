@@ -428,20 +428,21 @@ img {
 @media screen and (max-width:768px) {
      .navbar {
           position: absolute;
-          right: 0px;
+          right: -10px;
           height: 30%;
           top: 0px;
           background-color: black;
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 100%;
+          width: 110%;
      }
 
      .box1 {
           position: absolute;
           width: 309px;
           height: 580px;
+          left: 0px;
 
 
      }
@@ -558,8 +559,7 @@ img {
           flex-direction: column;
           align-items: center;
      }
-
-     .animated-text {
+.animated-text {
           position: absolute;
           top: 90%;
           left: 50%;
