@@ -106,7 +106,7 @@ function showToScreen(person) {
      items.job = items[person].job
      items.number = items[person].number
      pic = items[person].img
-
+ 
      //  $('#id').text("Anställnings nummer " + items.id);
      $('#name').text(items.name + " " + items.lastname);
      $('#job').text(items.job);
